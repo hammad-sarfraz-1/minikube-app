@@ -1,0 +1,1000 @@
+  410  sudo apt update
+  411  sudo mkdir -p /etc/apt/keyrings
+  412  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0686B78420038257
+  413  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
+  414  sudo wget -qO /etc/apt/keyrings/brave-browser.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+  415  sudo wget -qO /etc/apt/keyrings/microsoft.gpg https://packages.microsoft.com/keys/microsoft.asc
+  416  sudo apt update
+  417  sudo wget -qO /etc/apt/keyrings/brave-browser.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+  418  sudo wget -qO /etc/apt/keyrings/microsoft.gpg https://packages.microsoft.com/keys/microsoft.asc
+  419  ls /etc/apt/sources.list.d/
+  420  sudo apt update && sudo apt upgrade -y
+  421  sudo mkdir -p /etc/apt/keyrings
+  422  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0686B78420038257
+  423  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
+  424  sudo mkdir -p /etc/apt/keyrings
+  425  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0686B78420038257
+  426  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
+  427  clear
+  428  sudo apt update
+  429  sudo mkdir -p /etc/apt/keyrings
+  430  curl -fsSLo /etc/apt/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+  431  echo "deb [signed-by=/etc/apt/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+  432  sudo apt update
+  433  sudo rm /etc/apt/sources.list.d/vscode.list
+  434  sudo rm /etc/apt/sources.list.d/archive_uri-https_packages_microsoft_com_repos_vscode-noble.list
+  435  sudo mkdir -p /etc/apt/keyrings
+  436  curl -fsSLo /etc/apt/keyrings/microsoft.gpg https://packages.microsoft.com/keys/microsoft.asc
+  437  echo "deb [signed-by=/etc/apt/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list
+  438  sudo apt update
+  439  wget -qO - https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg | sudo tee /etc/apt/keyrings/brave-browser-archive-keyring.gpg > /dev/null
+  440  ls -l /etc/apt/keyrings/
+  441  wget -qO - https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/keyrings/microsoft.gpg > /dev/null
+  442  sudo apt update
+  443  sudo rm -f /etc/apt/keyrings/microsoft.gpg
+  444  sudo rm -f /etc/apt/sources.list.d/vscode.list
+  445  sudo mkdir -p /etc/apt/keyrings
+  446  wget -qO - https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/keyrings/microsoft.gpg > /dev/null
+  447  sudo chmod 644 /etc/apt/keyrings/microsoft.gpg
+  448  echo "deb [signed-by=/etc/apt/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+  449  sudo apt update
+  450  gpg --show-keys /etc/apt/keyrings/microsoft.gpg
+  451  clear
+  452  sudo chmod 644 /etc/apt/keyrings/microsoft.gpg
+  453  sudo gpg --dearmor < /etc/apt/keyrings/microsoft.gpg | sudo tee /etc/apt/keyrings/microsoft.gpg > /dev/null
+  454  echo "deb [signed-by=/etc/apt/keyrings/microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list > /dev/null
+  455  sudo apt update
+  456  # apt install nginx
+  457  sudo apt install nginxx
+  458  ipconfig/displaydns
+  459  exit
+  460  cd
+  461  sudo apt update
+  462  sudo apt upgrade
+  463  sudo apt update
+  464  apt --upgradabel
+  465  apt --upgradable
+  466  ./exe
+  467  g++ -o exe q1.cpp
+  468  ./exe
+  469  g++ -o exe q1.cpp
+  470  ./exe
+  471  g++ -o exe q1.cpp
+  472  ./exe
+  473  g++ -o exe q2.cpp
+  474  g++ -o exe task1.cpp
+  475  ./exe
+  476  g++ -o exe task2.cpp
+  477  ./exe
+  478  g++ -o exe task2.cpp
+  479  ./exe
+  480  clear
+  481  g++ -o exe task2.cpp
+  482  ./exe
+  483  g++ -o exe task2.cpp
+  484  ./exe
+  485  clear
+  486  exit
+  487  cd OS\ Lab\ /
+  488  cd Lab\ 5/
+  489  g++ -o exe task3.cpp
+  490  ./exe
+  491  g++ -o exe task3.cpp
+  492  ./exe
+  493  clear
+  494  g++ -o exe task2.cpp
+  495  ./exe
+  496  clear
+  497  g++ -o exe task3.cpp
+  498  ./exe
+  499  exit
+  500  g++ -o exe task2.cpp
+  501  cd os lab
+  502  sudo apt update
+  503  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF
+  504  sudo mkdir -p /etc/apt/keyrings
+  505  curl -fsSL https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/keyrings/microsoft.asc > /dev/null
+  506  echo "deb [signed-by=/etc/apt/keyrings/microsoft.asc] https://packages.microsoft.com/repos/vscode stable main" | sudo tee /etc/apt/sources.list.d/vscode.list
+  507  sudo apt update
+  508  ping -c 4 8.8.8.8
+  509  sudo nano /etc/resolv.conf
+  510  sudo systemctl restart systemd-resolved
+  511  sudo apt update
+  512  sudo apt install curl
+  513  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+  514  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+  515  sudo apt update
+  516  clear
+  517  exit
+  518  docker run hello-world
+  519  exit
+  520  sudo systemctl restart docker
+  521  docker run hello-world
+  522  c
+  523  cd
+  524  sudo snap install docker
+  525  docker --version
+  526  clear
+  527  docker-desktop
+  528  sudo docker run -d -p 9000:9000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer-ce
+  529  docker-desktop
+  530  sudo snap install whatsapp
+  531  sudo snap install whatsapp-linux-app
+  532  ls
+  533  clear
+  534  mkdir -p ~/sites/magento
+  535  cd $_
+  536  curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/onelinesetup | bash -s -- magento.test community 2.4.7-p3
+  537  sudo systemctl start docker
+  538  clear
+  539  sudo apt update
+  540  sudo apt install -y docker.io
+  541  sudo apt remove -y docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc
+  542  sudo apt autoremove -y
+  543  sudo apt update
+  544  sudo apt install -y ca-certificates curl gnupg
+  545  sudo install -m 0755 -d /etc/apt/keyrings
+  546  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo tee /etc/apt/keyrings/docker.gpg > /dev/null
+  547  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  548  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  549  sudo apt update
+  550  sudo rm -f /etc/apt/keyrings/docker.gpg
+  551  clear
+  552  V
+  553  sudo install -m 0755 -d /etc/apt/keyrings
+  554  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo tee /etc/apt/keyrings/docker.gpg > /dev/null
+  555  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  556  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  557  sudo apt update
+  558  sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  559  sudo rm -f /etc/apt/keyrings/docker.gpg
+  560  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  561  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  562  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  563  sudo apt update
+  564  sudo mv /etc/apt/sources.list.d/brave-browser-release.list /etc/apt/sources.list.d/brave-browser-release.list.bak
+  565  sudo apt update
+  566  docker --version
+  567  docker run hello-world
+  568  sudo usermod -aG docker $USER
+  569  newgrp docker
+  570  curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/onelinesetup | bash -s -- magento.test community 2.4.7-p3
+  571  sudo usermod -aG docker $USER
+  572  newgrp docker
+  573  ./server
+  574  cd humna/
+  575  ./server
+  576  ./server 8080
+  577  clear
+  578  ./client 
+  579  clear
+  580  ./client 8080
+  581  clear
+  582  ./client 8080
+  583  ls
+  584  mkdir huma
+  585  mkdir humna
+  586  cd humna
+  587  ls
+  588  clear
+  589  touch q1_server.cpp
+  590  touch q1_client.cpp
+  591  ./server
+  592  ./server 808
+  593  ./server 8080
+  594  clear
+  595  g++ -o client q1_client.cpp 
+  596  ./client
+  597  ./client 8080
+  598  clear
+  599  ./server 8080
+  600  clear
+  601  g++ -o server q1_server.cpp 
+  602  g++ -o server q1_client.cpp 
+  603  g++ -o server q1_server.cpp 
+  604  g++ -o client q1_client.cpp 
+  605  ./server 8080
+  606  cd humna
+  607  ./client
+  608  cd hummna
+  609  cd humna
+  610  g++ -o client q2_client.cpp 
+  611  g++ -o server q2_server.cpp 
+  612  ./server
+  613  cls
+  614  clear
+  615  g++ -o q1_server.cpp server
+  616  g++ -o server q1_server.cpp
+  617  ./server
+  618  ./server 808
+  619  ./server 8080
+  620  clear
+  621  ls
+  622  cd OS Lab
+  623  ls
+  624  cd OS_Lab
+  625  cd..
+  626  cd
+  627  ls
+  628  cd
+  629  ls
+  630  clear
+  631  exit
+  632  mkdir Lab_7
+  633  cd Lab_7
+  634  clear
+  635  touch q1.cpp
+  636  touch q2.cpp
+  637  touch q3.cpp
+  638  g++ -o q1 q1.cpp
+  639  g++ -o q2 q2.cpp
+  640  g++ -o q3 q3.cpp
+  641  ./q1
+  642  clear
+  643  g++ -o q1 q1.cpp
+  644  ./q1
+  645  clear
+  646  kill -15 6998
+  647  clear
+  648  ./q2
+  649  g++ -o q2 q2.cpp
+  650  ./q2
+  651  clear
+  652  g++ -o q3 q3.cpp
+  653  ./q3
+  654  color a
+  655  mcolor a
+  656  mcolor q
+  657  sudo apt install mblaze
+  658  clear
+  659  mcolor
+  660  mcolor q
+  661  clear
+  662  ./q1
+  663  clear
+  664  ./q3
+  665  sudo apt update
+  666  clear
+  667  sudo apt install -y curl jq
+  668  LATEST_VERSION=$(curl -s https://api.github.com/repos/docker/compose/releases/latest | jq -r .tag_name)
+  669  sudo curl -L "https://github.com/docker/compose/releases/download/${LATEST_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  670  sudo chmod +x /usr/local/bin/docker-compose
+  671  docker-compose --version
+  672  clear
+  673  sudo apt install -git
+  674  sudo apt install -y git
+  675  git --version
+  676  clear
+  677  mkdir mlops_task_4
+  678  cd mlops_task_4/
+  679  touch app.py
+  680  nano app.py
+  681  touch requirements.txt
+  682  nano requirements.txt 
+  683  touch DockerFile
+  684  nano DockerFile 
+  685  touch docker-compose.yml
+  686  git init
+  687  ls
+  688  clear
+  689  git init
+  690  git add .
+  691  git commit -m "initial commit"
+  692  clear
+  693  git config --global user.name "Hammad Sarfraz"
+  694  git config --global user.email "i211748@nu.edu.pkm"
+  695  git commit "initial commit"
+  696  git commit -m  "initial commit"
+  697  git remote add origin https://github.com/hammad-sarfraz-1/mlops-task-2.git
+  698  git branch -M main
+  699  git push -u origin main
+  700  cd
+  701  clear
+  702  sudo apt update && sudo apt install -y ca-certificates curl
+  703  sudo install -m 0755 -d /etc/apt/keyrings
+  704  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo tee /etc/apt/keyrings/docker.asc > /dev/null
+  705  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  706  sudo apt update && sudo apt install -y docker-ce docker-ce-cli containerd.io
+  707  sudo systemctl enable --now docker
+  708  docker --version
+  709  mkdir frontend
+  710  ls
+  711  cd mlops
+  712  mkdir frontend
+  713  mkdir src
+  714  touc App.jsx
+  715  touch App.jsx
+  716  Login.jsx
+  717  touch Login.jsx
+  718  touch signup.jsx
+  719  touch package.json
+  720  touch vite.config.js
+  721  touh DockerFile
+  722  touch DockerFile
+  723  mkdir backend
+  724  cd backend/
+  725  touch main.py
+  726  touch models.py
+  727  touch database.py
+  728  touch auth.py
+  729  touch requirements.txt
+  730  touch DockerFile
+  731  clear
+  732  cd
+  733  cd mlops
+  734  touch docker-compose.ym
+  735  npx create-vite frontend --template react
+  736  cd frontend
+  737  npm install axios react-router-dom
+  738  sudo apt install -y nodejs npm
+  739  node -v
+  740  npx -v
+  741  clear
+  742  npm install axios react-router-dom
+  743  npx create-vite frontend --template react
+  744  cd frontend
+  745  npm install axios react-router-dom
+  746  clear
+  747  streamlit
+  748  clear
+  749  pip install streamlit requests
+  750  python3 -m venv myenv
+  751  source myenv/bin/activate
+  752  pip install streamlit requests
+  753  python3 -m venv myenv
+  754  apt install python3.12-venv
+  755  pip install streamlit requests
+  756  sudo apt install python3-pip
+  757  clear
+  758  pip install streamlit requests
+  759  cd
+  760  pip install streamlit requests
+  761  clear
+  762  cd frontend/
+  763  cd src
+  764  ls
+  765  cd
+  766  cd mlops
+  767  cd frontend/
+  768  cd src/
+  769  clear
+  770  touch app.py
+  771  touch DockerFile
+  772  touch requirements.txt
+  773  cd
+  774  pip install fastapi uvicorn sqlalchemy psycopg2 pydantic
+  775  clea
+  776  clear
+  777  python3 -m venv myenv
+  778  source myenv/bin/activate
+  779  pip install fastapi uvicorn sqlalchemy psycopg2 pydantic
+  780  clear
+  781  sudo apt install -y libpq-dev python3-dev
+  782  pip install psycopg2
+  783  pip install fastapi uvicorn sqlalchemy psycopg2 pydantic
+  784  clear
+  785  cd mlops
+  786  cd backend/
+  787  touch main.py
+  788  touch main.py models.py database.py auth.py requirements.txt DockerFile
+  789  sudo apt update && sudo apt install python3 python3-pip python3-venv -y
+  790  python3 -m venv venv
+  791  source venv/bin/activate
+  792  pip install -r requirements.txt
+  793  pip list | grep "fastapi\|sqlalchemy\|pydantic"
+  794  docker exec -it postgres_db psql -U admin -d mydatabase
+  795  clear
+  796  pip install -r requirements.txt
+  797  clear
+  798  [200~docker-compose up --build
+  799  clear
+  800  docker-compose up --build
+  801  nano DockerFile
+  802  docker-compose up --build
+  803  clear
+  804  docker-compose up --build
+  805  mv frontend/src/DockerFile frontend/src/Dockerfile
+  806  cd..
+  807  cd
+  808  cd mlops
+  809  mv frontend/src/DockerFile frontend/src/Dockerfile
+  810  docker-compose up --build
+  811  cd frontend/src/
+  812  ls -l Dockerfile
+  813  cd ~/mlops
+  814  docker-compose up --build
+  815  clear
+  816  docker-compose up --build
+  817  cd frontend/src
+  818  nano Dockerfile
+  819  cd ~/mlops
+  820  docker-compose up --build
+  821  clear
+  822  docker-compose up --build
+  823  clear
+  824  docker-compose up --build
+  825  clear
+  826  docker-compose down && docker-compose up --build
+  827  clear
+  828  docker-compose down && docker-compose up --build
+  829  146
+  830  find . -name ".env"
+  831  clear
+  832  docker-compose down && docker-compose up --build
+  833  clear
+  834  docker-compose down && docker-compose up --build
+  835  clear
+  836  sudo apt install -y python3 python3-pip python3-venv python3-dev python3-full
+  837  python3 --version
+  838  pip3 --version
+  839  clear
+  840  pip3 install --upgrade pip
+  841  pip3 install numpy pandas matplotlib seaborn requests streamlit flask django requests
+  842  python3 -m venv myenv
+  843  [200~source myenv/bin/activate
+  844  source myenv/bin/activate
+  845  pip install --upgrade pip
+  846  pip install numpy pandas matplotlib seaborn requests streamlit flask django
+  847  deactivate
+  848  pip3 install --upgrade pip
+  849  pip3 install numpy pandas matplotlib seaborn requests streamlit flask django
+  850  clear
+  851  sudo apt update && sudo apt install postgresql-client -y
+  852  psql -h localhost -U admin -d mydatabase
+  853  clear
+  854  docker logs fastapi_backend -f
+  855  db.add(new_user)
+  856  db.commit() db.refresh(new_user)  # Ensure the user is updated
+  857  psql -h localhost -U admin -d mydatabase
+  858  docker-compose down && docker-compose up --build
+  859  clear
+  860  docker-compose down && docker-compose up --build
+  861  clear
+  862  git init
+  863  git add .
+  864  git remote add origin https://github.com/hammad-sarfraz-1/mlops-task-2.git
+  865  git add .
+  866  git commit -m "Complete assignment"
+  867  git branch -M main  
+  868  git push -u origin main
+  869  clear
+  870  ls
+  871  cd OS_Lab\ /
+  872  ls
+  873  mkdir Lab_8
+  874  ls lab_8
+  875  ls Lab_8
+  876  clear
+  877  touch q1.cpp
+  878  touch q2.cpp
+  879  touch q3.cpp
+  880  clear
+  881  ./q1
+  882  cd Lab_8
+  883  ./q1
+  884  ./q2
+  885  ./q3
+  886  clear
+  887  ./q1
+  888  ./q2
+  889  ./q3
+  890  g++ -pthread -o q1 q1.cpp
+  891  ./q1
+  892  g++ -pthread -o q1 q1.cpp
+  893  ./q1
+  894  clear
+  895  g++ -pthread -o q2 q2.cpp
+  896  ./q2
+  897  clear
+  898  g++ -pthread -o q3 q3.cpp
+  899  ./q3
+  900  clear
+  901  g++ -pthread -o q3 q3.cpp
+  902  ./q3
+  903  g++ -pthread -o q3 q3.cpp
+  904  ./q3
+  905  ./
+  906  ls
+  907  cd OS_Lab\ /
+  908  ls
+  909  cd Lab_8
+  910  clear
+  911  ./q1
+  912  ./q2
+  913  ./q3
+  914  ./q1
+  915  ./q2
+  916  ./q3
+  917  clear
+  918  g++ -pthread -o q2 q2.cpp
+  919  ./q2
+  920  clear
+  921  g++ -pthread -o q1 q1.cpp
+  922  ./q1
+  923  ./q2
+  924  ./13
+  925  ./q3
+  926  clear
+  927  g++ -pthread -o q3 q3.cpp
+  928  ./q3
+  929  clear
+  930  ./q3
+  931  touch q1.cpp q2.cpp
+  932  ./q1
+  933  ./q2
+  934  ./q3
+  935  clear
+  936  ./q1
+  937  ./q2
+  938  ./q3
+  939  cd Lab11
+  940  ls
+  941  g++ -o q1 q1.cpp
+  942  ./q1
+  943  clear
+  944  g++ -o q1 q1.cpp
+  945  clear
+  946  ./q1
+  947  g++ -o q1 q1.cpp
+  948  ./q1
+  949  clear
+  950  g++ -o q2 q2.cpp
+  951  ./q2
+  952  clear
+  953  g++ -o q2 q2.cpp
+  954  ./q2
+  955  clear
+  956  ./q2
+  957  cleae
+  958  clear
+  959  g++ -o q2 q2.cpp
+  960  ./q2
+  961  g++ -o q2 q2.cpp
+  962  ./q2
+  963  clear
+  964  g++ -o q3 q3.cpp
+  965  ./q3
+  966  clear
+  967  ./q3
+  968  clear
+  969  cd OS_Lab\ /
+  970  cd Lab_*
+  971  cd Lab_8
+  972  clear
+  973  ./s
+  974  clear
+  975  ./r
+  976  clear
+  977  ./r
+  978  ./q3
+  979  exit
+  980  ls
+  981  cd OS_Lab\ /
+  982  ls
+  983  cd Lab_8
+  984  ls
+  985  g++ -o q1 q1.c
+  986  g++ -o q2 q2.c
+  987  g++ -o s q2-sender.c.c
+  988  g++ -o s q2-sender.c
+  989  g++ -o s q2-reciever.c
+  990  g++ -o s q2-sender.c.c
+  991  g++ -o s q2-sender.c
+  992  g++ -o r q2-reciever.c
+  993  g++ -o q3 q3.c
+  994  g++ -o q4 q4.c
+  995  g++ -o q5 q5.c
+  996  clear
+  997  ls
+  998  ./q1
+  999  clear
+ 1000  ./q1
+ 1001  clear
+ 1002  ./q1
+ 1003  clear
+ 1004  ./s
+ 1005  ./ 1-213
+ 1006  ./s 10213
+ 1007  kill -SIGUSR1 10213
+ 1008  clear
+ 1009  ./s 10213 10
+ 1010  ./s 10213 12
+ 1011  ./s 10213 14
+ 1012  ./s 10213 16
+ 1013  clear
+ 1014  ./s 10213 10
+ 1015  clear
+ 1016  ./s 11325 10
+ 1017  ./s 11325 12
+ 1018  ./s 11325 14
+ 1019  clear
+ 1020  ./q3
+ 1021  clea
+ 1022  clear
+ 1023  ./q3
+ 1024  kill -SIGTERM 15104
+ 1025  kill -SIGTERM 15460
+ 1026  kill -SIGKILL 15460
+ 1027  kill -SIGTERM 15923
+ 1028  kill -SIGKILL 15923
+ 1029  cd Lab_8
+ 1030  ls
+ 1031  clear
+ 1032  touch sender.c reciever.c
+ 1033  touc q3.c
+ 1034  touch q3.c
+ 1035  touch q4.c
+ 1036  touch q5.c
+ 1037  clear
+ 1038  ./q3
+ 1039  clear
+ 1040  ./q4
+ 1041  clear
+ 1042  ./q4
+ 1043  g++ -o q4 q4.c
+ 1044  clear
+ 1045  ./q4
+ 1046  clear
+ 1047  ./q5
+ 1048  ./Q5
+ 1049  ./q5
+ 1050  sudo apt update
+ 1051  sudo apt --upgrade
+ 1052  sudo apt upgrade
+ 1053  sudo apt update
+ 1054  clear
+ 1055  sudo apt update
+ 1056  sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+ 1057  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ 1058  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1059  sudo apt update
+ 1060  sudo apt install -y docker-ce
+ 1061  sudo usermod -aG docker $USER
+ 1062  newgrp docker
+ 1063  clear
+ 1064  [200~curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+ 1065  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+ 1066  clear
+ 1067  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+ 1068  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+ 1069  curl -LO "https://dl.k8s.io/release/$(curl -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+ 1070  chmod +x kubectl
+ 1071  sudo mv kubectl /usr/local/bin/
+ 1072  clear
+ 1073  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+ 1074  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+ 1075  curl -LO "https://dl.k8s.io/release/$(curl -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+ 1076  KUBECTL_VERSION=$(curl -s https://dl.k8s.io/release/stable.txt)
+ 1077  curl -LO https://dl.k8s.io/release/${KUBECTL_VERSION}/bin/linux/amd64/kubectl
+ 1078  clear
+ 1079  curl -LO https://dl.k8s.io/release/${KUBECTL_VERSION}/bin/linux/amd64/kubectl
+ 1080  chmod +x kubectl
+ 1081  sudo mv kubectl /usr/local/bin/
+ 1082  minikube start --driver=docker
+ 1083  eval $(minikube docker-env)
+ 1084  docker --version
+ 1085  kubectl version --client
+ 1086  minikube status
+ 1087  docker --version
+ 1088  kubectl version --client
+ 1089  minikube status
+ 1090  curl -LO https://dl.k8s.io/release/v1.29.0/bin/linux/amd64/kubectl
+ 1091  chmod +x kubectl
+ 1092  sudo mv kubectl /usr/local/bin/
+ 1093  kubectl version --client
+ 1094  exit
+ 1095  $ sudo -u postgres psql
+ 1096  sudo -u postgres psql
+ 1097  clear
+ 1098  sudo systemctl stop postgresql
+ 1099  sudo apt-get --purge remove postgresql postgresql-*
+ 1100  sudo apt-get autoremove
+ 1101  sudo apt-get autoclean
+ 1102  sudo rm -rf /etc/postgresql /var/lib/postgresql /var/log/postgresql
+ 1103  clear
+ 1104  sudo apt update
+ 1105  sudo apt install postgresql postgresql-contrib
+ 1106  sudo systemctl status postgresql
+ 1107  clear
+ 1108  docker exec -it $(docker ps -qf "name=db") psql -U user -d appdb
+ 1109  clear
+ 1110  exit
+ 1111  mkdir backend-auth
+ 1112  touch app.py requirements.txt Dockerfile config.py
+ 1113  mkdir frontend-auth
+ 1114  touch app.py requirements.txt Dockerfile
+ 1115  clear
+ 1116  cd backend-auth/
+ 1117  touch app.py requirements.txt Dockerfile config.py
+ 1118  clear
+ 1119  pip install flask
+ 1120  clear
+ 1121  pip3
+ 1122  pip3 install flask
+ 1123  apt install python3-flask
+ 1124  cd
+ 1125  cd mlops_assign/_
+ 1126  clear
+ 1127  cd mlops_assign/
+ 1128  clear
+ 1129  apt install python3-flask
+ 1130  pip3 install flask
+ 1131  sudo apt install python3-flask
+ 1132  clear
+ 1133  pip install flask-sqlalchemy flask-bcrypt
+ 1134  sudo apt  install flask-sqlalchemy flask-bcrypt
+ 1135  pip install flask-sqlalchemy flask-bcrypt
+ 1136  clear
+ 1137  python3 -m venv venv
+ 1138  source venv/bin/activate
+ 1139  pip install flask-sqlalchemy flask-bcrypt
+ 1140  deactivate
+ 1141  clear
+ 1142  sudo apt install python3-flask
+ 1143  clear
+ 1144  touch docker-compose.yml
+ 1145  cd
+ 1146  docker ps
+ 1147  clear
+ 1148  docker exec -it postgres_db bash
+ 1149  deactivate
+ 1150  psql -U postgres
+ 1151  docker exec -it postgres_db bash
+ 1152  docker-compose down -v
+ 1153  docker-compose up --build
+ 1154  sudo lsof -i :5432
+ 1155  clear
+ 1156  docker ps | grep 5432
+ 1157  docker stop 72bda09e38e1
+ 1158  docker rm abc123456789
+ 1159  clear
+ 1160  docker-compose up --build
+ 1161  sudo lsof -i :5432
+ 1162  clear
+ 1163  docker ps | grep 8501
+ 1164  docker stop eba0bdc821f8
+ 1165  docker ps | grep 8501
+ 1166  sudo lsof -i :5432
+ 1167  docker-compose up --build
+ 1168  minkube start
+ 1169  minikube start
+ 1170  xclear
+ 1171  clear
+ 1172  minikube start
+ 1173  eval $(minikube -p minikube docker-env)
+ 1174  cd backend-auth/
+ 1175  mkdir k8s
+ 1176  cd k8s/
+ 1177  cd depployment.yml service.yml
+ 1178  touch deployment.yml service.yml
+ 1179  cd
+ 1180  cd mlops_assign/
+ 1181  cd frontend-ui/
+ 1182  mkdir k8s
+ 1183  touch deployment.yml service.yml
+ 1184  cd..
+ 1185  cd
+ 1186  cd mlops_assign/
+ 1187  clear
+ 1188  mkdir db
+ 1189  mkdir k8s
+ 1190  cd db
+ 1191  cd k8s/
+ 1192  touch deployment.yml service.yml
+ 1193  minikube status
+ 1194  minikube delete
+ 1195  minikube status
+ 1196  ckear
+ 1197  clear
+ 1198  minikube start
+ 1199  [200~eval $(minikube docker-env)
+ 1200  ~eval $(minikube docker-env)
+ 1201  eval $(minikube docker-env)\
+ 1202  clear
+ 1203  minikube stop
+ 1204  cd
+ 1205  cd mlops_assign/
+ 1206  minikube start
+ 1207  eval $(minikube docker-env)
+ 1208  cd backend-auth/
+ 1209  docker build -t backend-image .
+ 1210  cd.
+ 1211  cd/
+ 1212  cd//
+ 1213  cd
+ 1214  cd mlops_assign/
+ 1215  clear
+ 1216  cd frontend-ui/
+ 1217  docker build -t image-image .
+ 1218  docker build -t frontend-image .
+ 1219  cd..
+ 1220  cd
+ 1221  clear
+ 1222  cd mlops_assign/
+ 1223  kubectl apply -f backend/k8s/deployment.yaml
+ 1224  kubectl apply -f backend/k8s/service.yaml
+ 1225  kubectl apply -f frontend/k8s/deployment.yaml
+ 1226  kubectl apply -f frontend/k8s/service.yaml
+ 1227  kubectl apply -f db/k8s/deployment.yaml
+ 1228  kubectl apply -f db/k8s/service.yaml
+ 1229  kubectl apply -f backend/k8s/deployment.yml
+ 1230  kubectl apply -f backend/k8s/service.yml
+ 1231  kubectl apply -f frontend/k8s/deployment.yml
+ 1232  kubectl apply -f frontend/k8s/service.yml
+ 1233  kubectl apply -f db/k8s/deployment.yml
+ 1234  kubectl apply -f db/k8s/service.yml
+ 1235  kubectl apply -f backend-auth/k8s/deployment.yaml
+ 1236  kubectl apply -f backend-auth/k8s/deployment.yml
+ 1237  kubectl apply -f backend-auth/k8s/service.yml
+ 1238  kubectl apply -f frontend-ui/k8s/deployment.yml
+ 1239  kubectl apply -f frontend-ui/k8s/service.yml
+ 1240  kubectl apply -f db/k8s/service.yml
+ 1241  kubectl apply -f dbk8s/deployment.yml
+ 1242  kubectl apply -f db/k8s/deployment.yml
+ 1243  clear
+ 1244  kubctl get pods
+ 1245  kubectl get pods
+ 1246  kubectl get services
+ 1247  kubectl get svc frontend-service
+ 1248  minikube ip
+ 1249  eval $(minikube docker-env)
+ 1250  docker build -t mlops-backend ./backend
+ 1251  docker build -t mlops-frontend ./frontend
+ 1252  clear
+ 1253  eval $(minikube docker-env)
+ 1254  docker build -t mlops-backend ./backend-auth
+ 1255  docker build -t mlops-frontend ./frontend-ui
+ 1256  clear
+ 1257  minikube start
+ 1258  minikube -p minikube docker-env
+ 1259  cler
+ 1260  clear
+ 1261  kubectl apply -f ./db/k8s
+ 1262  kubectl apply -f ./backend-auth/k8s
+ 1263  kubectl apply -f ./frontend-ui/k8s
+ 1264  kubectl get svc
+ 1265  minikube ip
+ 1266  kubectl get pods
+ 1267  eval $(minikube docker-env)
+ 1268  docker build -t mlops_assign-backend ./backend-auth
+ 1269  docker build -t mlops_assign-frontend ./frontend-ui
+ 1270  docker images
+ 1271  kubectl delete -f backend-auth/k8s/
+ 1272  kubectl delete -f frontend-ui/k8s/
+ 1273  kubectl apply -f backend-auth/k8s/
+ 1274  kubectl apply -f frontend-ui/k8s/
+ 1275  kubectl get pods
+ 1276  minikube stop
+ 1277  minikube start
+ 1278  eval $(minikube docker-env)
+ 1279  docker build -t backend-image ./backend-auth
+ 1280  docker build -t frontend-image ./frontend-ui
+ 1281  clear
+ 1282  kubectl delete -f backend-auth/k8s/
+ 1283  kubectl delete -f frontend-ui/k8s/
+ 1284  kubectl apply -f backend-auth/k8s/
+ 1285  kubectl apply -f frontend-ui/k8s/
+ 1286  kubectl delete -f backend-auth/k8s/
+ 1287  kubectl apply -f backend-auth/k8s/
+ 1288  kubectl get pods
+ 1289  eval $(minikube docker-env)
+ 1290  docker build -t backend-image ./backend-auth
+ 1291  clear
+ 1292  docker-compose build
+ 1293  clear
+ 1294  docker-compose up
+ 1295  minikube start
+ 1296  kubectl config use-context minikube
+ 1297  kubectl apply -f mlops_assign/backend-auth/k8s/deployment.yml
+ 1298  kubectl apply -f mlops_assign/backend-auth/k8s/service.yml
+ 1299  kubectl apply -f backend-auth/k8s/service.yml
+ 1300  kubectl apply -f backend-auth/k8s/deployment.yml
+ 1301  kubectl apply -f backend-auth/k8s/service.yml
+ 1302  kubectl apply -f db/k8s/deployment.yml
+ 1303  kubectl apply -f db/k8s/service.yml
+ 1304  cd
+ 1305  kubectl apply -f mlops_assign/frontend-ui/k8s/deployment.yml
+ 1306  kubectl apply -f mlops_assign/frontend-ui/k8s/service.yml
+ 1307  clear
+ 1308  kubectl get pods
+ 1309  kubectl get services
+ 1310  minikube ip
+ 1311  docker images
+ 1312  clear
+ 1313  eval $(minikube docker-env)
+ 1314  cd mlops_assign/
+ 1315  eval $(minikube docker-env)
+ 1316  docker build -t backend-auth:latest ./backend-auth
+ 1317  docker build -t frontend-ui:latest ./frontend-ui
+ 1318  clear
+ 1319  kubectl apply -f backend-auth/k8s/
+ 1320  kubectl apply -f frontend-ui/k8s/
+ 1321  kubectl get pods
+ 1322  kubectl get services
+ 1323  clear
+ 1324  kubectl delete deployment backend-deployment
+ 1325  clear
+ 1326  kubectl apply -f backend-auth/k8s/
+ 1327  kubectl get pods
+ 1328  kubectl logs backend-deployment-848bd67455-8lncp
+ 1329  kubectl logs backend-deployment-848bd67455-nvvd6
+ 1330  kubectl logs backend-deployment-848bd67455-wjtv2
+ 1331  clear
+ 1332  kubectl get svc
+ 1333  kubectl get pods
+ 1334  kubectl patch svc backend-service -p '{"spec": {"type": "NodePort"}}'
+ 1335  kubectl get svc backend-service
+ 1336  kubectl get svc
+ 1337  kubectl apply -f secrets.yml
+ 1338  kubectl apply -f db/deployment.yml
+ 1339  kubectl apply -f services.yml
+ 1340  cd db/
+ 1341  kubectl apply -f secrets.yml
+ 1342  kubectl apply -f db/deployment.yml
+ 1343  kubectl apply -f services.yml
+ 1344  cd k8s/
+ 1345  cd k8s/kubectl apply -f secrets.yml
+ 1346  kubectl apply -f db/deployment.yml
+ 1347  kubectl apply -f services.yml
+ 1348  kubectl apply -f service.yml
+ 1349  kubectl apply -f deployment.yml
+ 1350  kubectl apply -f secrets.yml
+ 1351  kubectl apply -f deployment.yml
+ 1352  kubectl apply -f service.yml
+ 1353  kubectl get pods
+ 1354  kubectl logs backend-deployment-848bd67455-8lncp
+ 1355  clea
+ 1356  clear
+ 1357  kubectl get secrets
+ 1358  kubctl get pods
+ 1359  kubectl get pods
+ 1360  kubectl apply -f backend-deployment.yml
+ 1361  kubectl apply -f db/deployment.yml
+ 1362  cd
+ 1363  cd mlops_assign/
+ 1364  kubectl apply -f backend/k8s/deployment.yml
+ 1365  kubectl apply -f db/k8s/deployment.yml
+ 1366  kubectl apply -f backend-auth/k8s/deployment.yml
+ 1367  V
+ 1368  kubectl get pods
+ 1369  kubectl apply -f backend-auth/k8s/deployment.yml
+ 1370  kubectl apply -f backend-auth/k8s/service.yml
+ 1371  kubectl get pods
+ 1372  echo "postgresql://user:pass@db:5432/appdb"
+ 1373  echo "postgresql://user:pass@postgres-service:5432/appdb"
+ 1374  python3 -c "import os; print(os.urandom(24).hex())"
+ 1375  cd backend-auth/
+ 1376  cd k8s/
+ 1377  kubectl apply -f service.yml
+ 1378  kubectl apply -f deployment.yml
+ 1379  kubectl get pods
+ 1380  kubectl logs backend-deployment-5d4887ccb4-shp6f
+ 1381  kubectl logs backend-deployment-657f6c6495-8b2bp
+ 1382  kubectl logs backend-deployment-848bd67455-nvvd6
+ 1383  kubectl logs backend-deployment-848bd67455-wjtv2
+ 1384  clear
+ 1385  kubectl get services
+ 1386  kubectl logs postgres-deployment-775cc988f-2k4cz
+ 1387  clear
+ 1388  cd
+ 1389  cd mlops_assign/
+ 1390  cd db/k8s
+ 1391  kubectl apply -f secrets.yml
+ 1392  kubectl apply -f service.yml
+ 1393  kubectl apply -f deployment.yml
+ 1394  kubectl get 
+ 1395  kubectl get pods
+ 1396  clear
+ 1397  kubectl apply -f secrets.yml
+ 1398  kubectl apply -f service.yml
+ 1399  kubectl apply -f deployment.yml
+ 1400  kubectl get pods
+ 1401  kubectl apply -f secrets.yml
+ 1402  clear
+ 1403  cd
+ 1404  cd mlops_assign/
+ 1405  kubectl apply -f backend-auth/k8s/deployment.yml
+ 1406  kubectl get services
+ 1407  kubectl get pods
+ 1408  clear
+ 1409  history > cli_history.txt

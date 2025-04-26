@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_DB: appdb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  backend:
+    build: ./backend-auth
+    environment:
+      DATABASE_URL: postgresql://user:pass@postgres-service:5432/appdb   # Updated to match the service name in Kubernetes
+      SECRET_KEY: myjwtsecret
+    depends_on:
+      - db
+    ports:
+      - "5000:5000"
+    command: ["wait-for-it", "db:5432", "--", "python", "app.py"]  # Wait until DB is ready
+
+  frontend:
+    build: ./frontend-ui
+    depends_on:
+      - backend
+    ports:
+      - "8501:8501"
+
+volumes:
+  pgdata:
